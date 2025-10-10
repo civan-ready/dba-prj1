@@ -4,6 +4,7 @@ resources:
       name: python_package_job
       tasks:
         - task_key: notebook_task
+          existing_cluster_id: 1010-130308-gnnxu8ov
           notebook_task:
             notebook_path: ../src/notebook.ipynb
           libraries:
