@@ -6,6 +6,5 @@ resources:
         - task_key: notebook_task
           notebook_task:
             notebook_path: ../src/notebook.ipynb
-          job_cluster_key: job_cluster
           libraries:
             - whl: ../dist/*.whl
